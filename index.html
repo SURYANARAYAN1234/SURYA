@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .card {
+            width: 180px;
+            border:1px solid gray;
+            box-shadow: 2px 2px 2px gray;
+            padding: 10px;
+            margin: 10px;
+            background-color: aqua;
+        }
+        .card:hover{
+            background-color: blueviolet;
+            color: aquamarine;
+        }
+        img{
+            border-left: 12px double red;
+            border-top: 12px double red;
+            border-right: 12px double yellow;
+            border-bottom: 12px double yellow;
+            border-bottom-right-radius: 100px;
+            border-top-left-radius: 100px;
+        }
+        body{
+            margin: 10px;
+        }
+        .card-header {
+            font-family: Arial;
+            text-align: center;
+        }
+        .card-body {
+            font-family: Arial;
+            text-align: center;
+            color:goldenrod;
+            height: 60px;
+        }
+        .card-footer {
+            text-align: center;
+            font-family: Arial;
+        }
+        .card-img {
+            width: 90%;
+            height: 150px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+     <div class="card">
+        <img class="card-img" title="AWS" src="../SURYA/IMAGE/OIP.jpeg">
+        <div class="card-header">
+          <h3>AWS Course</h3>
+        </div>
+        <div class="card-body">
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+           <p>More Details</p>
+        </div>
+     </div>
+
+     <div class="card">
+        <img class="card-img" title="DATA SCIENCE" width="100%" src="../SURYA/IMAGE/OIP.jpeg" height="150">
+        <div class="card-header">
+          <h3>Data Science Course</h3>
+        </div>
+        <div class="card-body">
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+           <p>More Details</p>
+        </div>
+     </div>
+
+
+     <div class="card">
+        <img class="card-img" title="DIGITAL MARKETING" width="100%" src="../SURYA/IMAGE/Untitled.jpeg" height="150">
+        <div class="card-header">
+          <h3>Digital Marketting Course</h3>
+        </div>
+        <div class="card-body">
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+           <p>More Details</p>
+        </div>
+     </div>
+
+     <div class="card">
+        <img class="card-img" title=".NET" width="100%" src="../SURYA/IMAGE/OIP.jpeg" height="150">
+        <div class="card-header">
+          <h3>ASP.NET Course</h3>
+        </div>
+        <div class="card-body">
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+           <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+           <p>More Details</p>
+        </div>
+     </div>
+  </div>    
+</body>
+</html>
